@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <psk.com.swipeicongame.customicon.cTextview
+            android:textStyle="bold"
+            android:textColor="@color/primary_text"
+            android:textSize="30dp"
+            android:text="Select Level"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="30dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <psk.com.swipeicongame.customicon.cButton
+            android:id="@+id/btnNormalLevel"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/test"
+            android:text="Normal"
+            android:textAllCaps="false"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <psk.com.swipeicongame.customicon.cButton
+            android:id="@+id/btnHardLevel"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/test"
+            android:text="Hard"
+            android:textAllCaps="false"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <psk.com.swipeicongame.customicon.cButton
+            android:id="@+id/btnChallengingLevel"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/test"
+            android:text="Challenging"
+            android:textAllCaps="false"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primary_dark"
+        android:gravity="center"
+        android:padding="10dp">
+
+        <psk.com.swipeicongame.customicon.cTextview
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DAILY BONUS"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/day1"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:background="@color/secondary_text"
+                android:padding="10dp">
+
+                <psk.com.swipeicongame.customicon.cTextview
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp"
+                    android:text=" Day 1"
+                    android:textColor="@android:color/white"
+                    android:textSize="20dp" />
+
+                <psk.com.swipeicongame.customicon.cTextview
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:text="$ 100"
+                    android:textColor="@color/primary_light"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/day2"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:background="@color/secondary_text"
+                android:clickable="false"
+                android:padding="10dp">
+
+                <psk.com.swipeicongame.customicon.cTextview
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp"
+                    android:text=" Day 2"
+                    android:textColor="@android:color/white"
+                    android:textSize="20dp" />
+
+                <psk.com.swipeicongame.customicon.cTextview
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:text="$ 125"
+                    android:textColor="@color/primary_light"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/day3"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:background="@color/secondary_text"
+                android:clickable="false"
+                android:padding="10dp">
+
+                <psk.com.swipeicongame.customicon.cTextview
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp"
+                    android:text=" Day 3"
+                    android:textColor="@android:color/white"
+                    android:textSize="20dp" />
+
+                <psk.com.swipeicongame.customicon.cTextview
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:text="$ 150"
+                    android:textColor="@color/primary_light"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/day4"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:background="@color/secondary_text"
+                android:clickable="false"
+                android:padding="10dp">
+
+                <psk.com.swipeicongame.customicon.cTextview
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp"
+                    android:text=" Day 4"
+                    android:textColor="@android:color/white"
+                    android:textSize="20dp" />
+
+                <psk.com.swipeicongame.customicon.cTextview
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:text="$ 175"
+                    android:textColor="@color/primary_light"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/day5"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:background="@color/secondary_text"
+                android:clickable="false"
+                android:padding="10dp">
+
+                <psk.com.swipeicongame.customicon.cTextview
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp"
+                    android:text=" Day 5"
+                    android:textColor="@android:color/white"
+                    android:textSize="20dp" />
+
+                <psk.com.swipeicongame.customicon.cTextview
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:text="$ 200"
+                    android:textColor="@color/primary_light"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/day6"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:background="@color/secondary_text"
+                android:clickable="false"
+                android:padding="10dp">
+
+                <psk.com.swipeicongame.customicon.cTextview
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp"
+                    android:text=" Day 6"
+                    android:textColor="@android:color/white"
+                    android:textSize="20dp" />
+
+                <psk.com.swipeicongame.customicon.cTextview
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:text="$ 250"
+                    android:textColor="@color/primary_light"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/day7"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:background="@color/secondary_text"
+                android:clickable="false"
+                android:padding="10dp">
+
+                <psk.com.swipeicongame.customicon.cTextview
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp"
+                    android:text=" Day 7"
+                    android:textColor="@android:color/white"
+                    android:textSize="20dp" />
+
+                <psk.com.swipeicongame.customicon.cTextview
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:text="$ 300"
+                    android:textColor="@color/primary_light"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

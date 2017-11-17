@@ -1,0 +1,111 @@
+<resources>
+    <string name="app_name">SwipeIconGame</string>
+
+
+    <!--For all icons-->
+    <string name="icon_heart">&#xf08a;</string>
+    <string name="icon_trophy">&#xf091;</string>
+    <string name="icon_settings">&#xf013;</string>
+    <string name="icon_hand_pointer">&#xf25a;</string>
+    <string name="icon_facebook">&#xf082;</string>
+    <string name="icon_twitter">&#xf081;</string>
+    <string name="icon_daily_bonus">&#xf06b;</string>
+
+    <string name="icon_pause">&#xf28c;</string>
+    <string name="icon_play">&#xf144;</string>
+
+    <string name="icon_B">&#xf032;</string>
+    <string name="icon_E">&#xf2d7;</string>
+    <string name="icon_G">&#xf1a0;</string>
+    <string name="icon_V">&#xf27d;</string>
+
+    <string name="icon_percentage">&#xf295;</string>
+
+
+    <string name="icon_doller">&#xf155;</string>
+    <string name="icon_circle">&#xf1db;</string>
+    <string name="icon_square">&#xf096;</string>
+
+    <string name="icon_arrow_down">&#xf063;</string>
+    <string name="icon_arrow_up">&#xf062;</string>
+    <string name="icon_arrow_right">&#xf061;</string>
+    <string name="icon_arrow_left">&#xf060;</string>
+
+
+    <string name="icon_left_hand">&#xf0a5;</string>
+    <string name="icon_right_hand">&#xf0a4;</string>
+
+
+
+
+
+
+
+
+    <!--For normal level-->
+    <string name="icon_normal_level1">&#xf063;</string>
+    <string name="icon_normal_level2">&#xf07d;</string>
+    <string name="icon_normal_level3">&#xf112;</string>
+    <string name="icon_normal_level4">&#xf081;</string>
+    <string name="icon_normal_level5">&#xf081;</string>
+
+
+    <!--For Hard level-->
+    <string name="icon_hard_level1">@string/icon_B</string>
+    <string name="icon_hard_level2">@string/icon_doller</string>
+    <string name="icon_hard_level3">@string/icon_E</string>
+    <string name="icon_hard_level4">&#xf081;</string>
+    <string name="icon_hard_level5">&#xf081;</string>
+
+    <!--For Challenge level-->
+    <string name="icon_challenge_level1">@string/icon_heart</string>
+    <string name="icon_challenge_level2">@string/icon_circle</string>
+    <string name="icon_challenge_level3">@string/icon_percentage</string>
+    <string name="icon_challenge_level4">&#xf081;</string>
+    <string name="icon_challenge_level5">&#xf081;</string>
+
+    <string name="icon_music_on">&#xf028;</string>
+    <string name="icon_music_off">&#xf026;</string>
+
+
+    <string name="demo">&#xf2d1;</string>
+
+
+    <string-array name="icon_name">
+        <item>Icon 1</item>
+        <item>Icon 2</item>
+        <item>Icon 3</item>
+        <item>Icon 4</item>
+        <item>Icon 5</item>
+    </string-array>
+
+    <string-array name="icon_price">
+        <item>1000</item>
+        <item>1500</item>
+        <item>2000</item>
+        <item>2500</item>
+        <item>3000</item>
+    </string-array>
+
+
+    <integer-array name="icon">
+        <item>@string/icon_heart</item>
+        <item>@string/icon_challenge_level2</item>
+        <item>@string/icon_challenge_level3</item>
+        <item>@string/icon_challenge_level1</item>
+        <item>@string/icon_challenge_level2</item>
+    </integer-array>
+
+
+
+
+    <!--For Normal level 1 icons-->
+    <string-array name="icon_normal_level1">
+        <item>1000</item>
+        <item>1500</item>
+        <item>2000</item>
+        <item>2500</item>
+        <item>3000</item>
+    </string-array>
+
+</resources>
